@@ -50,23 +50,18 @@ class CollectionEntryController: UIViewController,UITextViewDelegate, UINavigati
     }
     
     //This Method is a Mockup
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let point = touches.first?.location(in: self.view)
         
-        if wasteTypeTextField.bounds.contains(point!) {
             self.quantityTextField.text = "3 Caçambas"
             self.quantityTextField.textColor = UIColor.black
-        }
-        
-        if transporterTextField.bounds.contains(point!) {
+
             self.distanceTextField.text = "10 Km"
             self.distanceTextField.textColor = UIColor.black
             self.priceTextField.text = "R$ 400,00"
             self.priceTextField.textColor = UIColor.black
-        }
     }
-    
     
     override func viewDidLoad() {
         
