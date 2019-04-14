@@ -23,6 +23,12 @@
 		BCDC461F2262CE8B00A2487E /* NOSWasteManagerUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = BCDC45F02262AC4700A2487E /* NOSWasteManagerUITests.xctest */; };
 		BCDC46202262CE8E00A2487E /* NOSWasteManagerTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = BCDC45FE2262AC6F00A2487E /* NOSWasteManagerTests.xctest */; };
 		BCDC46222262E62300A2487E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46212262E62300A2487E /* UIView.swift */; };
+		BCDC46252262F12000A2487E /* Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46242262F12000A2487E /* Cases.swift */; };
+		BCDC46272262FDD900A2487E /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46262262FDD900A2487E /* CALayer.swift */; };
+		BCDC462922630A5600A2487E /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC462822630A5600A2487E /* Structs.swift */; };
+		BCDC462D2263107900A2487E /* UIPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC462C2263107900A2487E /* UIPickers.swift */; };
+		BCEE932D22632729005E9183 /* RequestLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE932C22632729005E9183 /* RequestLogController.swift */; };
+		BCEE9332226330F7005E9183 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEE9331226330F7005E9183 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,13 @@
 		BCDC461A2262C58500A2487E /* CollectionEntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionEntryController.swift; sourceTree = "<group>"; };
 		BCDC461B2262C58500A2487E /* SiteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
 		BCDC46212262E62300A2487E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		BCDC46242262F12000A2487E /* Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cases.swift; sourceTree = "<group>"; };
+		BCDC46262262FDD900A2487E /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		BCDC462822630A5600A2487E /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		BCDC462C2263107900A2487E /* UIPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIPickers.swift; path = NOSWasteManager/Models/UIPickers.swift; sourceTree = SOURCE_ROOT; };
+		BCEE932C22632729005E9183 /* RequestLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLogController.swift; sourceTree = "<group>"; };
+		BCEE9330226330F4005E9183 /* NOSWasteManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NOSWasteManager.entitlements; sourceTree = "<group>"; };
+		BCEE9331226330F7005E9183 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		BFFE00B58E606C2D7D80BE63 /* Pods-NOSWasteManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSWasteManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-NOSWasteManagerUITests/Pods-NOSWasteManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C06397DA382F22F5EE7F170C /* Pods-NOSWasteManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSWasteManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-NOSWasteManagerUITests/Pods-NOSWasteManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				507F61472734D46B7EADB153 /* Pods_NOSWasteManager.framework in Frameworks */,
+				BCEE9332226330F7005E9183 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +129,7 @@
 		69FBE446DC890879EAD67BDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCEE9331226330F7005E9183 /* CloudKit.framework */,
 				88A82F136FBF99021AA571AA /* Pods_NOSWasteManager.framework */,
 				78075359B287029E21B5D472 /* Pods_NOSWasteManagerTests.framework */,
 				B1DF485E776102CBC506CCA5 /* Pods_NOSWasteManagerUITests.framework */,
@@ -147,6 +162,8 @@
 		BCDC45D62262AA6300A2487E /* NOSWasteManager */ = {
 			isa = PBXGroup;
 			children = (
+				BCEE9330226330F4005E9183 /* NOSWasteManager.entitlements */,
+				BCDC46232262F10600A2487E /* Helpers */,
 				BCDC460B2262ACEC00A2487E /* Storyboards */,
 				BCDC460A2262ACDD00A2487E /* Models */,
 				BCDC46092262ACCA00A2487E /* Extensions */,
@@ -163,6 +180,7 @@
 		BCDC45E92262AA7000A2487E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BCDC462C2263107900A2487E /* UIPickers.swift */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -189,9 +207,10 @@
 		BCDC46082262ACC000A2487E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BCDC461A2262C58500A2487E /* CollectionEntryController.swift */,
 				BCDC46192262C58500A2487E /* LoginController.swift */,
 				BCDC461B2262C58500A2487E /* SiteController.swift */,
+				BCEE932C22632729005E9183 /* RequestLogController.swift */,
+				BCDC461A2262C58500A2487E /* CollectionEntryController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -200,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				BCDC46212262E62300A2487E /* UIView.swift */,
+				BCDC46262262FDD900A2487E /* CALayer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -207,6 +227,7 @@
 		BCDC460A2262ACDD00A2487E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BCDC462822630A5600A2487E /* Structs.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -218,6 +239,14 @@
 				BCDC45E02262AA6400A2487E /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BCDC46232262F10600A2487E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BCDC46242262F12000A2487E /* Cases.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +321,14 @@
 				TargetAttributes = {
 					BCDC45D32262AA6300A2487E = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					BCDC45EF2262AC4700A2487E = {
 						CreatedOnToolsVersion = 10.2;
@@ -449,11 +486,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCDC461D2262C58500A2487E /* CollectionEntryController.swift in Sources */,
+				BCDC462922630A5600A2487E /* Structs.swift in Sources */,
+				BCDC46272262FDD900A2487E /* CALayer.swift in Sources */,
+				BCEE932D22632729005E9183 /* RequestLogController.swift in Sources */,
 				BCDC45DA2262AA6300A2487E /* ViewController.swift in Sources */,
 				BCDC461C2262C58500A2487E /* LoginController.swift in Sources */,
 				BCDC45D82262AA6300A2487E /* AppDelegate.swift in Sources */,
+				BCDC46252262F12000A2487E /* Cases.swift in Sources */,
 				BCDC46222262E62300A2487E /* UIView.swift in Sources */,
 				BCDC461E2262C58500A2487E /* SiteController.swift in Sources */,
+				BCDC462D2263107900A2487E /* UIPickers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +672,7 @@
 			baseConfigurationReference = 020AA1F374949B525ECA0CCA /* Pods-NOSWasteManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOSWasteManager/NOSWasteManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FT4276G8Q9;
 				INFOPLIST_FILE = NOSWasteManager/Info.plist;
@@ -640,7 +683,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pigs.cesarlabs.NOSWasteManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -649,6 +692,7 @@
 			baseConfigurationReference = 6AB7C675473F9428AD733A3B /* Pods-NOSWasteManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOSWasteManager/NOSWasteManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FT4276G8Q9;
 				INFOPLIST_FILE = NOSWasteManager/Info.plist;
@@ -660,7 +704,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pigs.cesarlabs.NOSWasteManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
