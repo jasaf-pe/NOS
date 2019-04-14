@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BBC07EA6BB0057379BC455710388E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		0C2335B40CE23E9028F3B902063EB255 /* DeckTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E54935178491F96F1877E420DF19CF /* DeckTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8DA39BAE61321C9515019D70FBDE5E /* DeckPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3830DD758E645D9175DE6935BDC1E /* DeckPresentationController.swift */; };
+		2F0F4689EA894E5BDEC37E084FDE919A /* Pods-NOSWasteManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AE7009695503578441D798E71B3FB /* Pods-NOSWasteManager-dummy.m */; };
+		35E5119C71E5D28FBDBB3343B73C7A2A /* ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679770D970F6C4B424BEA0612B619A6C /* ManualLayout.swift */; };
+		3E39F74AFC8BFEED5BF6B4E0C1676D3B /* Pods-NOSWasteManagerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8673C87C9B916643F7E075557BDF39AB /* Pods-NOSWasteManagerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA6C355F8A5054C3497002D3F255C3A /* UIViewController+IsPresentedWithDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE23452A25EEC22C5485182C6296926 /* UIViewController+IsPresentedWithDeck.swift */; };
+		43855848C5C5B23D35E4413CD71461B6 /* DeckTransitionViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C03CE9BECF9717EEE379087AE143EA6 /* DeckTransitionViewControllerProtocol.swift */; };
+		4A0691AC7CE1E9FD293225F3C468A4C9 /* Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07D4480B9689EC55C948302B92FFA1 /* Corner.swift */; };
+		4B9B36B4E6D901B36A9EB87FCFF5A389 /* Pods-NOSWasteManagerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C447B7EAB0A60DCDDEE6369C2D33C41 /* Pods-NOSWasteManagerUITests-dummy.m */; };
+		5007FD6D411C69A9F646548251ABD282 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC02D7B80B5CE0591C087C1D7D122EE /* Constants.swift */; };
+		504852806691092F1FCB6BD8ACFC85FC /* Pods-NOSWasteManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F09751B56008F677F3748A484BDF6C /* Pods-NOSWasteManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F63A4273E68353B2C6F2FC7F898CBE /* DeckSnapshotUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EB6D5219904F1C83BD202221BDD596 /* DeckSnapshotUpdater.swift */; };
+		6BCD5E40152AC1CA31DF59C5C4820CF1 /* DeckTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 448BAFC64B6F6A3A3BFB2CF5241B458F /* DeckTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9105A3BAE99916F8644605F3A669AA69 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC324A95F7B08F2358C22323A565A1A /* CornerView.swift */; };
+		95B0070FD8DEF35FF2CC04DF9DF9EAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		987A270424D60A55B6F89387358691F8 /* CGRect+InitWithCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C7BE1904C561FF79C252655942637 /* CGRect+InitWithCorner.swift */; };
+		98E13A9D39D4C2590A37F9743F88EAE5 /* ScrollViewDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0076908821452278C8AA18B93F34E /* ScrollViewDetector.swift */; };
+		9BBEB92B60EF1DF87C9F7E5DE49A5228 /* Pods-NOSWasteManagerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 879D5C5A6564933E1086F36C0F6B198E /* Pods-NOSWasteManagerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A0D1BDADFA62355EAD1FAFD3EBA7F4 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A512568BF8763CC63148656192594F /* RoundedView.swift */; };
+		A84D0AC92AF7AF8B8F3B60A5500008F7 /* DeckTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192306F1C5BBDC16BE7E9E29AF6CCE9 /* DeckTransitioningDelegate.swift */; };
+		B28D86A57CD4D622BC479EA8E828CA04 /* DeckPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB386F0B97467F5745A9AB4A81BB9D1 /* DeckPresentingAnimationController.swift */; };
+		CDF935BFF4E0DDD59767EC588A572BA8 /* DeckSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B43D48E2124857B473D18D005435942 /* DeckSegue.swift */; };
+		CE6D930A9419A1404893060E50D5C1C8 /* Pods-NOSWasteManagerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B7538A7C186B353BB9EB7B1A5237D /* Pods-NOSWasteManagerTests-dummy.m */; };
+		DE12F57B9D0D4EDE77B90FECD863D630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		E696FC5E258BE74C2E75F14FD4796517 /* ScrollViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84254479F84F4110AB3FBB9BCC428F /* ScrollViewUpdater.swift */; };
+		F07FC3AB935398BCB5D4662FEB6CE4AA /* DeckTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A398AD5D8085C5F66251458B97D56238 /* DeckTransition-dummy.m */; };
+		F5000FED7BD16C8382E08CF1FD5D080E /* CGRect+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A2D9131AEA6C30DAE28C46621A4FD /* CGRect+Corners.swift */; };
+		F6ABCA54307F49ABE8B13AC0A5E236B6 /* UIViewController+DeckTransitionViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93E9D6352821B32D714DAC60E1B610 /* UIViewController+DeckTransitionViewControllerProtocol.swift */; };
+		F8E33F7F17F3D37A822F907D15AD0F82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		F95FB6558E47415AC8231F5574445BD1 /* DeckDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F803505F1EA0D1943622017C3CD29BAB /* DeckDismissingAnimationController.swift */; };
+		FD508B1C2C9D6F1CE06CA679732D44CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D791C6C6124FD3FE72AFF246221EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8263B1FD6B69F8D135B312139EB8693B;
+			remoteInfo = DeckTransition;
+		};
+		2A6718D3587FA938E76668E3128D8D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E8C27C26CFC09EAF264979D3F2897B;
+			remoteInfo = "Pods-NOSWasteManager";
+		};
+		6568FB73C061B4EACF0C59D74150E162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E8C27C26CFC09EAF264979D3F2897B;
+			remoteInfo = "Pods-NOSWasteManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06811A8E38E6810A209EF85096B745E5 /* Pods-NOSWasteManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOSWasteManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A07D4480B9689EC55C948302B92FFA1 /* Corner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Corner.swift; path = Source/RoundedView/Corner.swift; sourceTree = "<group>"; };
+		0C447B7EAB0A60DCDDEE6369C2D33C41 /* Pods-NOSWasteManagerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOSWasteManagerUITests-dummy.m"; sourceTree = "<group>"; };
+		17E54935178491F96F1877E420DF19CF /* DeckTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeckTransition-umbrella.h"; sourceTree = "<group>"; };
+		18172D041276DE0693DE8FFEFB21E8A6 /* DeckTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeckTransition.xcconfig; sourceTree = "<group>"; };
+		1DC02D7B80B5CE0591C087C1D7D122EE /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Constants.swift; sourceTree = "<group>"; };
+		1EC0076908821452278C8AA18B93F34E /* ScrollViewDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollViewDetector.swift; path = Source/ScrollViewDetector.swift; sourceTree = "<group>"; };
+		1FB0868D603BC32AB6C1D7124B37BAD4 /* DeckTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeckTransition-Info.plist"; sourceTree = "<group>"; };
+		2192306F1C5BBDC16BE7E9E29AF6CCE9 /* DeckTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckTransitioningDelegate.swift; path = Source/DeckTransitioningDelegate.swift; sourceTree = "<group>"; };
+		2475D5409A0AEE70DC0A6D36739EB1CD /* Pods-NOSWasteManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOSWasteManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30E62F86BABF917FEF2111A5CAA34E92 /* Pods-NOSWasteManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NOSWasteManager-frameworks.sh"; sourceTree = "<group>"; };
+		3371BFFF79C040D61C7622375258704B /* Pods-NOSWasteManagerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOSWasteManagerTests-Info.plist"; sourceTree = "<group>"; };
+		376723818DC72675B89C0C419EDD6496 /* Pods-NOSWasteManagerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NOSWasteManagerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39B7F0F4BA0C0FA75DBAAF2F3159B75B /* Pods_NOSWasteManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NOSWasteManager.framework; path = "Pods-NOSWasteManager.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		442047AE396CB414C04219365DC05FA4 /* Pods-NOSWasteManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOSWasteManager-Info.plist"; sourceTree = "<group>"; };
+		448BAFC64B6F6A3A3BFB2CF5241B458F /* DeckTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeckTransition.h; path = "Source/Supporting Files/DeckTransition.h"; sourceTree = "<group>"; };
+		449A2D9131AEA6C30DAE28C46621A4FD /* CGRect+Corners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Corners.swift"; path = "Source/Extensions/CGRect+Corners.swift"; sourceTree = "<group>"; };
+		4717FBB419EC8899A3111F14D5DF2238 /* Pods-NOSWasteManagerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOSWasteManagerUITests-Info.plist"; sourceTree = "<group>"; };
+		4C93E9D6352821B32D714DAC60E1B610 /* UIViewController+DeckTransitionViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+DeckTransitionViewControllerProtocol.swift"; path = "Source/Extensions/UIViewController+DeckTransitionViewControllerProtocol.swift"; sourceTree = "<group>"; };
+		4E84254479F84F4110AB3FBB9BCC428F /* ScrollViewUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollViewUpdater.swift; path = Source/ScrollViewUpdater.swift; sourceTree = "<group>"; };
+		55D3830DD758E645D9175DE6935BDC1E /* DeckPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckPresentationController.swift; path = Source/DeckPresentationController.swift; sourceTree = "<group>"; };
+		5DAC17BEEB1161AD05C5CC945DF380E1 /* Pods-NOSWasteManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NOSWasteManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60FB3F921C63CF796D123A3AD1E36BA4 /* DeckTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeckTransition.modulemap; sourceTree = "<group>"; };
+		62A512568BF8763CC63148656192594F /* RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedView.swift; path = Source/RoundedView/RoundedView.swift; sourceTree = "<group>"; };
+		679770D970F6C4B424BEA0612B619A6C /* ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManualLayout.swift; path = Source/ManualLayout.swift; sourceTree = "<group>"; };
+		6AB386F0B97467F5745A9AB4A81BB9D1 /* DeckPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckPresentingAnimationController.swift; path = Source/DeckPresentingAnimationController.swift; sourceTree = "<group>"; };
+		6C03CE9BECF9717EEE379087AE143EA6 /* DeckTransitionViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckTransitionViewControllerProtocol.swift; path = Source/DeckTransitionViewControllerProtocol.swift; sourceTree = "<group>"; };
+		6CC324A95F7B08F2358C22323A565A1A /* CornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CornerView.swift; path = Source/RoundedView/CornerView.swift; sourceTree = "<group>"; };
+		717EF9C5149DC2D858CFE1F64AC47C96 /* Pods_NOSWasteManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NOSWasteManagerTests.framework; path = "Pods-NOSWasteManagerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B43D48E2124857B473D18D005435942 /* DeckSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckSegue.swift; path = Source/DeckSegue.swift; sourceTree = "<group>"; };
+		802013139EF5672DBB0AE34E68B58FFB /* Pods-NOSWasteManagerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOSWasteManagerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8673C87C9B916643F7E075557BDF39AB /* Pods-NOSWasteManagerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOSWasteManagerTests-umbrella.h"; sourceTree = "<group>"; };
+		879D5C5A6564933E1086F36C0F6B198E /* Pods-NOSWasteManagerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOSWasteManagerUITests-umbrella.h"; sourceTree = "<group>"; };
+		8F756CDF2BDED7976AB0E88C28BFD57D /* DeckTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeckTransition.framework; path = DeckTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9486E8797CC6019606A918EA3FF43CF1 /* Pods-NOSWasteManagerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NOSWasteManagerTests.modulemap"; sourceTree = "<group>"; };
+		96C929B6F5296700CE394898BBB2BD9E /* Pods-NOSWasteManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOSWasteManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6AE7009695503578441D798E71B3FB /* Pods-NOSWasteManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOSWasteManager-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A398AD5D8085C5F66251458B97D56238 /* DeckTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeckTransition-dummy.m"; sourceTree = "<group>"; };
+		A49564A4E388A16953D7E595B75D659D /* Pods-NOSWasteManagerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NOSWasteManagerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B29CEC60416431EC365035499F2FAC13 /* Pods-NOSWasteManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOSWasteManager.debug.xcconfig"; sourceTree = "<group>"; };
+		B9F09751B56008F677F3748A484BDF6C /* Pods-NOSWasteManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOSWasteManager-umbrella.h"; sourceTree = "<group>"; };
+		CC9C7BE1904C561FF79C252655942637 /* CGRect+InitWithCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+InitWithCorner.swift"; path = "Source/Extensions/CGRect+InitWithCorner.swift"; sourceTree = "<group>"; };
+		CDA62B195042AF594035EF375ACD693F /* Pods-NOSWasteManagerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NOSWasteManagerUITests.modulemap"; sourceTree = "<group>"; };
+		D0F2D9DDFA5D7BA9EDFF0B6C260542D4 /* Pods-NOSWasteManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOSWasteManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6EB6D5219904F1C83BD202221BDD596 /* DeckSnapshotUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckSnapshotUpdater.swift; path = Source/DeckSnapshotUpdater.swift; sourceTree = "<group>"; };
+		DEE23452A25EEC22C5485182C6296926 /* UIViewController+IsPresentedWithDeck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+IsPresentedWithDeck.swift"; path = "Source/Extensions/UIViewController+IsPresentedWithDeck.swift"; sourceTree = "<group>"; };
+		E8866DE6F0719378D763D25A80091002 /* Pods-NOSWasteManagerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOSWasteManagerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA25822BD94E1824E94F02C8A7FA1049 /* Pods-NOSWasteManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOSWasteManager.release.xcconfig"; sourceTree = "<group>"; };
+		EA5FF9424E5DD05BD1509F1CBBDF1D26 /* DeckTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeckTransition-prefix.pch"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F27F9DCC9C33A95677B941ECF7E73CBB /* Pods_NOSWasteManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NOSWasteManagerUITests.framework; path = "Pods-NOSWasteManagerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E261EA66211C70FE29527C695BF404 /* Pods-NOSWasteManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NOSWasteManager.modulemap"; sourceTree = "<group>"; };
+		F803505F1EA0D1943622017C3CD29BAB /* DeckDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckDismissingAnimationController.swift; path = Source/DeckDismissingAnimationController.swift; sourceTree = "<group>"; };
+		FA6B7538A7C186B353BB9EB7B1A5237D /* Pods-NOSWasteManagerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOSWasteManagerTests-dummy.m"; sourceTree = "<group>"; };
+		FE2775DF72176C5B28028D5E08DF3206 /* Pods-NOSWasteManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOSWasteManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BC3842211562A83DD1F027B8D735DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B0070FD8DEF35FF2CC04DF9DF9EAB4 /* Foundation.framework in Frameworks */,
+				F8E33F7F17F3D37A822F907D15AD0F82 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F8A3DFDC257A7F3579DD5F09E498D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE12F57B9D0D4EDE77B90FECD863D630 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72491194363B4ABD198BDA609245E0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD508B1C2C9D6F1CE06CA679732D44CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2A4C1C21329EF3E579319A433CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBC07EA6BB0057379BC455710388E88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11881C2787A7E264935DD7D2394C6A56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FB3F921C63CF796D123A3AD1E36BA4 /* DeckTransition.modulemap */,
+				18172D041276DE0693DE8FFEFB21E8A6 /* DeckTransition.xcconfig */,
+				A398AD5D8085C5F66251458B97D56238 /* DeckTransition-dummy.m */,
+				1FB0868D603BC32AB6C1D7124B37BAD4 /* DeckTransition-Info.plist */,
+				EA5FF9424E5DD05BD1509F1CBBDF1D26 /* DeckTransition-prefix.pch */,
+				17E54935178491F96F1877E420DF19CF /* DeckTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeckTransition";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3729F4E60B9BE4FEC67CF8F827003BDF /* Pods-NOSWasteManager */ = {
+			isa = PBXGroup;
+			children = (
+				F3E261EA66211C70FE29527C695BF404 /* Pods-NOSWasteManager.modulemap */,
+				5DAC17BEEB1161AD05C5CC945DF380E1 /* Pods-NOSWasteManager-acknowledgements.markdown */,
+				D0F2D9DDFA5D7BA9EDFF0B6C260542D4 /* Pods-NOSWasteManager-acknowledgements.plist */,
+				9D6AE7009695503578441D798E71B3FB /* Pods-NOSWasteManager-dummy.m */,
+				30E62F86BABF917FEF2111A5CAA34E92 /* Pods-NOSWasteManager-frameworks.sh */,
+				442047AE396CB414C04219365DC05FA4 /* Pods-NOSWasteManager-Info.plist */,
+				B9F09751B56008F677F3748A484BDF6C /* Pods-NOSWasteManager-umbrella.h */,
+				B29CEC60416431EC365035499F2FAC13 /* Pods-NOSWasteManager.debug.xcconfig */,
+				EA25822BD94E1824E94F02C8A7FA1049 /* Pods-NOSWasteManager.release.xcconfig */,
+			);
+			name = "Pods-NOSWasteManager";
+			path = "Target Support Files/Pods-NOSWasteManager";
+			sourceTree = "<group>";
+		};
+		478BB2155E492CED91C197EB1666BD04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAF3BFA6874665C131898CC9CA301F /* DeckTransition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65EDC84D7F18EFB8CA04A5DFEEDAAFDE /* Pods-NOSWasteManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9486E8797CC6019606A918EA3FF43CF1 /* Pods-NOSWasteManagerTests.modulemap */,
+				376723818DC72675B89C0C419EDD6496 /* Pods-NOSWasteManagerTests-acknowledgements.markdown */,
+				802013139EF5672DBB0AE34E68B58FFB /* Pods-NOSWasteManagerTests-acknowledgements.plist */,
+				FA6B7538A7C186B353BB9EB7B1A5237D /* Pods-NOSWasteManagerTests-dummy.m */,
+				3371BFFF79C040D61C7622375258704B /* Pods-NOSWasteManagerTests-Info.plist */,
+				8673C87C9B916643F7E075557BDF39AB /* Pods-NOSWasteManagerTests-umbrella.h */,
+				06811A8E38E6810A209EF85096B745E5 /* Pods-NOSWasteManagerTests.debug.xcconfig */,
+				FE2775DF72176C5B28028D5E08DF3206 /* Pods-NOSWasteManagerTests.release.xcconfig */,
+			);
+			name = "Pods-NOSWasteManagerTests";
+			path = "Target Support Files/Pods-NOSWasteManagerTests";
+			sourceTree = "<group>";
+		};
+		89F79BF5A178538851F6B2BA33F00650 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3729F4E60B9BE4FEC67CF8F827003BDF /* Pods-NOSWasteManager */,
+				65EDC84D7F18EFB8CA04A5DFEEDAAFDE /* Pods-NOSWasteManagerTests */,
+				BAB071C6317F89F30A099DE120E82677 /* Pods-NOSWasteManagerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9DCAF3BFA6874665C131898CC9CA301F /* DeckTransition */ = {
+			isa = PBXGroup;
+			children = (
+				449A2D9131AEA6C30DAE28C46621A4FD /* CGRect+Corners.swift */,
+				CC9C7BE1904C561FF79C252655942637 /* CGRect+InitWithCorner.swift */,
+				1DC02D7B80B5CE0591C087C1D7D122EE /* Constants.swift */,
+				0A07D4480B9689EC55C948302B92FFA1 /* Corner.swift */,
+				6CC324A95F7B08F2358C22323A565A1A /* CornerView.swift */,
+				F803505F1EA0D1943622017C3CD29BAB /* DeckDismissingAnimationController.swift */,
+				55D3830DD758E645D9175DE6935BDC1E /* DeckPresentationController.swift */,
+				6AB386F0B97467F5745A9AB4A81BB9D1 /* DeckPresentingAnimationController.swift */,
+				7B43D48E2124857B473D18D005435942 /* DeckSegue.swift */,
+				D6EB6D5219904F1C83BD202221BDD596 /* DeckSnapshotUpdater.swift */,
+				448BAFC64B6F6A3A3BFB2CF5241B458F /* DeckTransition.h */,
+				2192306F1C5BBDC16BE7E9E29AF6CCE9 /* DeckTransitioningDelegate.swift */,
+				6C03CE9BECF9717EEE379087AE143EA6 /* DeckTransitionViewControllerProtocol.swift */,
+				679770D970F6C4B424BEA0612B619A6C /* ManualLayout.swift */,
+				62A512568BF8763CC63148656192594F /* RoundedView.swift */,
+				1EC0076908821452278C8AA18B93F34E /* ScrollViewDetector.swift */,
+				4E84254479F84F4110AB3FBB9BCC428F /* ScrollViewUpdater.swift */,
+				4C93E9D6352821B32D714DAC60E1B610 /* UIViewController+DeckTransitionViewControllerProtocol.swift */,
+				DEE23452A25EEC22C5485182C6296926 /* UIViewController+IsPresentedWithDeck.swift */,
+				11881C2787A7E264935DD7D2394C6A56 /* Support Files */,
+			);
+			name = DeckTransition;
+			path = DeckTransition;
+			sourceTree = "<group>";
+		};
+		BAB071C6317F89F30A099DE120E82677 /* Pods-NOSWasteManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA62B195042AF594035EF375ACD693F /* Pods-NOSWasteManagerUITests.modulemap */,
+				A49564A4E388A16953D7E595B75D659D /* Pods-NOSWasteManagerUITests-acknowledgements.markdown */,
+				E8866DE6F0719378D763D25A80091002 /* Pods-NOSWasteManagerUITests-acknowledgements.plist */,
+				0C447B7EAB0A60DCDDEE6369C2D33C41 /* Pods-NOSWasteManagerUITests-dummy.m */,
+				4717FBB419EC8899A3111F14D5DF2238 /* Pods-NOSWasteManagerUITests-Info.plist */,
+				879D5C5A6564933E1086F36C0F6B198E /* Pods-NOSWasteManagerUITests-umbrella.h */,
+				96C929B6F5296700CE394898BBB2BD9E /* Pods-NOSWasteManagerUITests.debug.xcconfig */,
+				2475D5409A0AEE70DC0A6D36739EB1CD /* Pods-NOSWasteManagerUITests.release.xcconfig */,
+			);
+			name = "Pods-NOSWasteManagerUITests";
+			path = "Target Support Files/Pods-NOSWasteManagerUITests";
+			sourceTree = "<group>";
+		};
+		C4FE62D6CF30F11665462C6BC0469B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F756CDF2BDED7976AB0E88C28BFD57D /* DeckTransition.framework */,
+				39B7F0F4BA0C0FA75DBAAF2F3159B75B /* Pods_NOSWasteManager.framework */,
+				717EF9C5149DC2D858CFE1F64AC47C96 /* Pods_NOSWasteManagerTests.framework */,
+				F27F9DCC9C33A95677B941ECF7E73CBB /* Pods_NOSWasteManagerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				478BB2155E492CED91C197EB1666BD04 /* Pods */,
+				C4FE62D6CF30F11665462C6BC0469B0D /* Products */,
+				89F79BF5A178538851F6B2BA33F00650 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B1A066BF6C8916F7007C89DD85C50E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBEB92B60EF1DF87C9F7E5DE49A5228 /* Pods-NOSWasteManagerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B893CFC616D7D41C338FDF692B5C296 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504852806691092F1FCB6BD8ACFC85FC /* Pods-NOSWasteManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9418A8F5701674CED17D21461389A67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E39F74AFC8BFEED5BF6B4E0C1676D3B /* Pods-NOSWasteManagerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2F628738FADC5DC6A4161DCA53C1FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2335B40CE23E9028F3B902063EB255 /* DeckTransition-umbrella.h in Headers */,
+				6BCD5E40152AC1CA31DF59C5C4820CF1 /* DeckTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20E8C27C26CFC09EAF264979D3F2897B /* Pods-NOSWasteManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABF3C23FA371FC6EFD85993DCBB40A6 /* Build configuration list for PBXNativeTarget "Pods-NOSWasteManager" */;
+			buildPhases = (
+				7B893CFC616D7D41C338FDF692B5C296 /* Headers */,
+				E4E722C4B6AFCF52B2CC541236F58786 /* Sources */,
+				64F8A3DFDC257A7F3579DD5F09E498D4 /* Frameworks */,
+				832B5C666AB809B5D9640E41C7AFF16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6471F0EBB023BD692FFA5C40B9FEEAF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NOSWasteManager";
+			productName = "Pods-NOSWasteManager";
+			productReference = 39B7F0F4BA0C0FA75DBAAF2F3159B75B /* Pods_NOSWasteManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DC7BB71A312F3ED4E6C6C35095ECD34 /* Pods-NOSWasteManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B727E769A54C60F14BB4C3F72E934CDA /* Build configuration list for PBXNativeTarget "Pods-NOSWasteManagerTests" */;
+			buildPhases = (
+				D9418A8F5701674CED17D21461389A67 /* Headers */,
+				12E2F847ABFB763B9CB40999381634AD /* Sources */,
+				F59B2A4C1C21329EF3E579319A433CDB /* Frameworks */,
+				292A358C17611D0F1B8423EED7260751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99B97176AFF790057862B57C88313EC /* PBXTargetDependency */,
+			);
+			name = "Pods-NOSWasteManagerTests";
+			productName = "Pods-NOSWasteManagerTests";
+			productReference = 717EF9C5149DC2D858CFE1F64AC47C96 /* Pods_NOSWasteManagerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8263B1FD6B69F8D135B312139EB8693B /* DeckTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D703B984C5A41B60BF99BC37F63C59D3 /* Build configuration list for PBXNativeTarget "DeckTransition" */;
+			buildPhases = (
+				DB2F628738FADC5DC6A4161DCA53C1FD /* Headers */,
+				09AB47F39BC4B01AACFFD3A0BEFA213E /* Sources */,
+				63BC3842211562A83DD1F027B8D735DF /* Frameworks */,
+				EC2A1A16A359AB3F0B39FAFCB8F53F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckTransition;
+			productName = DeckTransition;
+			productReference = 8F756CDF2BDED7976AB0E88C28BFD57D /* DeckTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E70A2593AE50C6D9BE3D90E2EBE4ABA0 /* Pods-NOSWasteManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0C4F69030638211B01CCE768D2BB3E /* Build configuration list for PBXNativeTarget "Pods-NOSWasteManagerUITests" */;
+			buildPhases = (
+				2B1A066BF6C8916F7007C89DD85C50E9 /* Headers */,
+				253BD6AE2007C60BE34AA01053CCD270 /* Sources */,
+				72491194363B4ABD198BDA609245E0FA /* Frameworks */,
+				8272AFA871C80ECA4E6EDAD35994A1EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ABADEDF72D2CFCDAF4BACB08319BABF /* PBXTargetDependency */,
+			);
+			name = "Pods-NOSWasteManagerUITests";
+			productName = "Pods-NOSWasteManagerUITests";
+			productReference = F27F9DCC9C33A95677B941ECF7E73CBB /* Pods_NOSWasteManagerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C4FE62D6CF30F11665462C6BC0469B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8263B1FD6B69F8D135B312139EB8693B /* DeckTransition */,
+				20E8C27C26CFC09EAF264979D3F2897B /* Pods-NOSWasteManager */,
+				4DC7BB71A312F3ED4E6C6C35095ECD34 /* Pods-NOSWasteManagerTests */,
+				E70A2593AE50C6D9BE3D90E2EBE4ABA0 /* Pods-NOSWasteManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292A358C17611D0F1B8423EED7260751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8272AFA871C80ECA4E6EDAD35994A1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B5C666AB809B5D9640E41C7AFF16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A1A16A359AB3F0B39FAFCB8F53F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09AB47F39BC4B01AACFFD3A0BEFA213E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5000FED7BD16C8382E08CF1FD5D080E /* CGRect+Corners.swift in Sources */,
+				987A270424D60A55B6F89387358691F8 /* CGRect+InitWithCorner.swift in Sources */,
+				5007FD6D411C69A9F646548251ABD282 /* Constants.swift in Sources */,
+				4A0691AC7CE1E9FD293225F3C468A4C9 /* Corner.swift in Sources */,
+				9105A3BAE99916F8644605F3A669AA69 /* CornerView.swift in Sources */,
+				F95FB6558E47415AC8231F5574445BD1 /* DeckDismissingAnimationController.swift in Sources */,
+				2B8DA39BAE61321C9515019D70FBDE5E /* DeckPresentationController.swift in Sources */,
+				B28D86A57CD4D622BC479EA8E828CA04 /* DeckPresentingAnimationController.swift in Sources */,
+				CDF935BFF4E0DDD59767EC588A572BA8 /* DeckSegue.swift in Sources */,
+				61F63A4273E68353B2C6F2FC7F898CBE /* DeckSnapshotUpdater.swift in Sources */,
+				F07FC3AB935398BCB5D4662FEB6CE4AA /* DeckTransition-dummy.m in Sources */,
+				A84D0AC92AF7AF8B8F3B60A5500008F7 /* DeckTransitioningDelegate.swift in Sources */,
+				43855848C5C5B23D35E4413CD71461B6 /* DeckTransitionViewControllerProtocol.swift in Sources */,
+				35E5119C71E5D28FBDBB3343B73C7A2A /* ManualLayout.swift in Sources */,
+				A4A0D1BDADFA62355EAD1FAFD3EBA7F4 /* RoundedView.swift in Sources */,
+				98E13A9D39D4C2590A37F9743F88EAE5 /* ScrollViewDetector.swift in Sources */,
+				E696FC5E258BE74C2E75F14FD4796517 /* ScrollViewUpdater.swift in Sources */,
+				F6ABCA54307F49ABE8B13AC0A5E236B6 /* UIViewController+DeckTransitionViewControllerProtocol.swift in Sources */,
+				3FA6C355F8A5054C3497002D3F255C3A /* UIViewController+IsPresentedWithDeck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2F847ABFB763B9CB40999381634AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6D930A9419A1404893060E50D5C1C8 /* Pods-NOSWasteManagerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253BD6AE2007C60BE34AA01053CCD270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9B36B4E6D901B36A9EB87FCFF5A389 /* Pods-NOSWasteManagerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E722C4B6AFCF52B2CC541236F58786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0F4689EA894E5BDEC37E084FDE919A /* Pods-NOSWasteManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ABADEDF72D2CFCDAF4BACB08319BABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NOSWasteManager";
+			target = 20E8C27C26CFC09EAF264979D3F2897B /* Pods-NOSWasteManager */;
+			targetProxy = 6568FB73C061B4EACF0C59D74150E162 /* PBXContainerItemProxy */;
+		};
+		6471F0EBB023BD692FFA5C40B9FEEAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeckTransition;
+			target = 8263B1FD6B69F8D135B312139EB8693B /* DeckTransition */;
+			targetProxy = 20D791C6C6124FD3FE72AFF246221EBC /* PBXContainerItemProxy */;
+		};
+		C99B97176AFF790057862B57C88313EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NOSWasteManager";
+			target = 20E8C27C26CFC09EAF264979D3F2897B /* Pods-NOSWasteManager */;
+			targetProxy = 2A6718D3587FA938E76668E3128D8D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BAA67EA867F90790E874BEF0D4F2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06811A8E38E6810A209EF85096B745E5 /* Pods-NOSWasteManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NOSWasteManagerTests/Pods-NOSWasteManagerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NOSWasteManagerTests/Pods-NOSWasteManagerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A474C20EF5FB4383C92CA0D2BF752E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA25822BD94E1824E94F02C8A7FA1049 /* Pods-NOSWasteManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NOSWasteManager/Pods-NOSWasteManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NOSWasteManager/Pods-NOSWasteManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		633767F772ACA85E4145BFAEE1919E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2475D5409A0AEE70DC0A6D36739EB1CD /* Pods-NOSWasteManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NOSWasteManagerUITests/Pods-NOSWasteManagerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NOSWasteManagerUITests/Pods-NOSWasteManagerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CB31AE070CD5F9FB7EA393F6C702897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2775DF72176C5B28028D5E08DF3206 /* Pods-NOSWasteManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NOSWasteManagerTests/Pods-NOSWasteManagerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NOSWasteManagerTests/Pods-NOSWasteManagerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77B093C59563CB45F2CA3CED1F70DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18172D041276DE0693DE8FFEFB21E8A6 /* DeckTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeckTransition/DeckTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeckTransition/DeckTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DeckTransition/DeckTransition.modulemap";
+				PRODUCT_MODULE_NAME = DeckTransition;
+				PRODUCT_NAME = DeckTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AB8956A1FF4B5EDC67E120C6988ACC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29CEC60416431EC365035499F2FAC13 /* Pods-NOSWasteManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NOSWasteManager/Pods-NOSWasteManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NOSWasteManager/Pods-NOSWasteManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A26BF45D8AB3A59A94B45972BE7BA77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18172D041276DE0693DE8FFEFB21E8A6 /* DeckTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeckTransition/DeckTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeckTransition/DeckTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DeckTransition/DeckTransition.modulemap";
+				PRODUCT_MODULE_NAME = DeckTransition;
+				PRODUCT_NAME = DeckTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCC37BB65183182868840168EC39760A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C929B6F5296700CE394898BBB2BD9E /* Pods-NOSWasteManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NOSWasteManagerUITests/Pods-NOSWasteManagerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NOSWasteManagerUITests/Pods-NOSWasteManagerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0C4F69030638211B01CCE768D2BB3E /* Build configuration list for PBXNativeTarget "Pods-NOSWasteManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC37BB65183182868840168EC39760A /* Debug */,
+				633767F772ACA85E4145BFAEE1919E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B727E769A54C60F14BB4C3F72E934CDA /* Build configuration list for PBXNativeTarget "Pods-NOSWasteManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAA67EA867F90790E874BEF0D4F2F4A /* Debug */,
+				6CB31AE070CD5F9FB7EA393F6C702897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABF3C23FA371FC6EFD85993DCBB40A6 /* Build configuration list for PBXNativeTarget "Pods-NOSWasteManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB8956A1FF4B5EDC67E120C6988ACC8 /* Debug */,
+				5A474C20EF5FB4383C92CA0D2BF752E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D703B984C5A41B60BF99BC37F63C59D3 /* Build configuration list for PBXNativeTarget "DeckTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B093C59563CB45F2CA3CED1F70DE5F /* Debug */,
+				A26BF45D8AB3A59A94B45972BE7BA77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
